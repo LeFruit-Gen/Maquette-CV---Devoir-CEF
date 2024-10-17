@@ -1,8 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 *{
-    color: white;
-    background-color: black;
+    font-family: 'Lato', sans-serif;
 }
-
-hr{
+/* Centre page + largeur */
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* Header et Footer couvrent 1160px */
+header, footer{
+    background-color: #17abb3;
     color: white;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+}
+/* Style "skills" */
+.skills{
+    width: 30%; /* 30% de la largeur */
+    background-color: #f0f8ff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* Style "profil" */
+.profil{
+    width: 70%; /* 70% de la largeur */
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
 }
